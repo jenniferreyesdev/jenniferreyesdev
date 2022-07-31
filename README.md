@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @jenniferreyesdev
-- 👀 I’m interested in all thing programming, coding, developing, security, privacy, ethical hacking, networking, front end, back end,... etc. You name it!
+- 👀 I’m interested in all things programming, coding, developing, security, privacy, ethical hacking, networking, front end, back end,... etc. You name it! I'm, also, current a Jr. Software Engineer.
 - 🌱 I’m currently learning to write production level applications after years studying mathematics.
 - 💞️ I’m looking to collaborate on anything!
 - 📫 How to reach me ... on here!
