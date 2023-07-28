@@ -1,0 +1,16 @@
+<div class="container-fluid">
+    <div style="text-align:center; justify-content:center; overflow: auto;">
+        <h1>QuantKit</h1>
+        <h6>Machine Learning APIs for U.S. Equities Trading</h6>
+        <h6>Hedging Strategy</h6>
+        <a routerLink="/login" class="btn btn-primary btn-block p-2 shadow rounded-pill">Use This Strategy!</a>    
+    </div>
+    <div class="table-responsive" style="margin: 0 auto; display: flex; justify-content:center;">
+        <canvas style="min-height:400px; min-width: 266px;" baseChart
+        [type]="'line'"
+        [data]="chartData"
+        [options]="chartOptions"
+        [legend]="chartLegend">
+        </canvas>
+    </div>
+</div>

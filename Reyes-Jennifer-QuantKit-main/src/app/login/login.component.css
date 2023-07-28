@@ -1,0 +1,32 @@
+.container-fluid {
+    padding-top: 250px !important;
+}
+
+.login{
+    text-align: center;
+    height: 90%
+}
+
+.center-center{
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+@media (min-width: 400px){
+    .container {
+        min-width: 400px;
+        max-width: 400px;
+        height: 100%;
+    }
+}
+  
+@media (max-width: 400px) {
+    .container {
+        min-width: 266px;
+        max-width: 400px;
+        height: 100%;
+    }
+}

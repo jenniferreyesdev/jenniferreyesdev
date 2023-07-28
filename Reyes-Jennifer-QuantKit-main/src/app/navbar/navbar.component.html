@@ -1,0 +1,44 @@
+<div class="container-fluid clearfix">
+  <nav id="navbar-main" class="navbar fixed-top navbar-expand-lg bg-light navbar-light">
+    <a class="navbar-brand float-start" href="#"><img src="assets/images/QuantKit-logo.jpeg" width="5%" height="5%" alt="QuantKit Logo"></a>
+    <!-- Links -->
+    <div class="float-end">
+      <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar">
+        <i class="navbar-toggler-icon fa-lg"></i>
+      </button>
+      <div class="navbar-collapse collapse" id="navbar" navbar>
+        <ul class="navbar-nav">
+          <li *ngIf="!isAuthenticated" class="nav-item">
+            <a class="nav-link" routerLink="/home">Home</a>
+          </li>
+          <li *ngIf="!isAuthenticated" class="nav-item">
+            <a class="nav-link" routerLink="/pricing">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/docs">Docs</a>
+          </li>
+          <li *ngIf="!isAuthenticated" class="nav-item dropdown">
+            <div ngbDropdown display="dynamic">
+              <a class="nav-link dropdown-toggle" id="navbarDropdown" ngbDropdownToggle>Services</a>
+              <div ngbDropdownMenu="navbarDropdown">
+                <a ngbDropdownItem routerLink="/trading">Trading</a>
+                <a ngbDropdownItem routerLink="/hedging">Hedging</a>
+                <a ngbDropdownItem routerLink="/risk">Risk</a>
+              </div>
+            </div>
+          </li>
+          <li *ngIf="isAuthenticated" class="nav-item">
+            <a class="nav-link" routerLink="/dashboard">Dashboard</a>
+          </li>
+          <li *ngIf="!isAuthenticated" class="nav-item">
+            <a class="nav-link" routerLink="/login"><span style="white-space: nowrap;">Log-In</span></a>
+          </li>
+          <li *ngIf="isAuthenticated" class="nav-item">
+            <a class="nav-link" data-test-id="logOut" (click)="signOut()" >Logout</a>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+</div>
