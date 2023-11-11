@@ -1,5 +1,5 @@
-- 👋 Hi, I’m @jenniferreyesdev
-- 👀 I’m interested in all things programming, coding, developing, machine learning, security, privacy, ethical hacking, networking, front end, back end,... etc. You name it! I'm, also, currently a Software Engineer.
+- 👋 Hi, I’m Jennifer Reyes
+- 👀 I’m interested in all things programming, coding, developing, machine learning, security, privacy, ethical hacking, networking, front end, back end,... etc. You name it! I'm, also, currently an AI/ML Develoepr and Full-Stack Software Engineer.
 - 💞️ I’m looking to collaborate on anything!
 - 📫 How to reach me ... www.linkedin.com/in/jenniferreyesdev !
 
